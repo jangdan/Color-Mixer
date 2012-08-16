@@ -3,6 +3,11 @@ Color-Mixer
 
 A simple color mixer made with Processing.
 
+
+UPDATE: Color Mixer will not be updated until the libraries are updated, we are also planning an Android app.
+
+
+
 Color Mixer Application
 by Daniel Min Hyuk Jang
   
