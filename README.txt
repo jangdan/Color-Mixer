@@ -4,20 +4,24 @@ Color-Mixer
 A simple color mixer made with Processing.
 
 
-UPDATE: Color Mixer will not be updated until the libraries are updated, we are also planning an Android app.
-
-
-
 Color Mixer Application
-by Daniel Min Hyuk Jang
+by LEOCarbon Mango
+
   
 Color Mixer is open source. Use it, mod it, share it.
 Just leave the white text on the right bottom
   
 Version Notes
   
-1.1.2 v 0.7.5
+1.1.3 v 0.7.5
   
+
+1.1.3 (8.24.12)
+   - Works with Processing 2.0 [developers]
+   - We are working on an Android app!
+   - Now works with Linux
+   - Edited the README
+
 1.1.2 (7.8.12)
  - Version Notes Edit
  - Electric Mango Blog ad (my blog)
