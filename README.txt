@@ -3,7 +3,6 @@ Color-Mixer
 
 A simple color mixer made with Processing.
 
-
 Color Mixer Application
 by LEOCarbon Mango
 
@@ -13,8 +12,12 @@ Just leave the white text on the right bottom
   
 Version Notes
   
-1.1.4 v 0.7.5
-  
+1.1.5 v 0.7.5
+
+1.1.5 (8.15.12)
+   - Fixed gray screen bug in MacOSX
+   - Minor changes to README.txt
+
 1.1.4 (8.25.12)
    - Added licence picture
    - Patch for version notes
