@@ -13,8 +13,11 @@ Just leave the white text on the right bottom
   
 Version Notes
   
-1.1.3 v 0.7.5
+1.1.4 v 0.7.5
   
+1.1.4 (8.25.12)
+   - Added licence picture
+   - Patch for version notes
 
 1.1.3 (8.24.12)
    - Works with Processing 2.0 [developers]
