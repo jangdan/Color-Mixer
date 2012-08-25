@@ -14,7 +14,7 @@ Version Notes
   
 1.1.5 v 0.7.5
 
-1.1.5 (8.15.12)
+1.1.5 (8.25.12)
    - Fixed gray screen bug in MacOSX
    - Minor changes to README.txt
 
