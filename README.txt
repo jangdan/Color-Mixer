@@ -4,7 +4,7 @@ Color-Mixer
 A simple color mixer made with Processing.
 
 Color Mixer Application
-by LEOCarbon Mango
+by Mangodaniel
 
   
 Color Mixer is open source. Use it, mod it, share it.
@@ -12,7 +12,14 @@ Just leave the white text on the right bottom
   
 Version Notes
   
-1.1.5 v 0.7.5
+
+1.1.6 v 0.7.5
+
+
+1.1.6 (8.26.12)
+   - Added Scroll™ feature
+     - Choose a color you like with scrolling!
+   - Minor adjustments to version notes
 
 1.1.5 (8.25.12)
    - Fixed gray screen bug in MacOSX
