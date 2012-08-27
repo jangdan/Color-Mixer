@@ -9,17 +9,16 @@ by Mangodaniel
   
 Color Mixer is open source. Use it, mod it, share it.
 Just leave the white text on the right bottom
-  
+
 Version Notes
   
-
-1.1.6 v 0.7.5
-
-
-1.1.6 (8.26.12)
-   - Added Scroll™ feature
-     - Choose a color you like with scrolling!
-   - Minor adjustments to version notes
+Last Updated 8.27.12 @ 1.1.6.1 v 0.7.5
+  
+1.1.6 (8.26.12
+ - Added Scroll™ feature
+   - Choose a color you like with scrolling!
+   - Control/Command+S
+ - Minor adjustments to version notes
 
 1.1.5 (8.25.12)
    - Fixed gray screen bug in MacOSX
