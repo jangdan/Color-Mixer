@@ -12,26 +12,29 @@ Just leave the white text on the right bottom
 
 Version Notes
   
-Last Updated 9.10.12 @ 2.0.0 v 0.7.5
+Last Updated 9.10.12 @ 2.0.1 v 0.7.5
+
+0012
   
-0011
+2.0.1 (9.10.12)
+ - Minor Auto clear bug fixed
   
-  2.0.0 (9.10.12)
-   - Major Breakthrough!!!
-     - Minor errors fixed
-       - Copyright version updated
-       - Release number added
-       - brightness to alpha
-       - Fixed broken blog link
-       - Removed some text in the bottom corner
-     - NOW WE HAVE NUMBER INPUT!!!
-       - Brought from version 0.2.a0 (4.14.12)
-       - Four text input boxes
-       - NUI™
-         - Number User Interface
-     - Graphics
-       - Repositioned the UIs
-       - Bigger output
+2.0.0 (9.10.12)
+ - Major Breakthrough!!!
+   - Minor errors fixed
+     - Copyright version updated
+     - Release number added
+     - brightness to alpha
+     - Fixed broken blog link
+     - Removed some text in the bottom corner
+   - NOW WE HAVE NUMBER INPUT!!!
+     - Brought from version 0.2.a0 (4.14.12)
+     - Four text input boxes
+     - NUI™
+       - Number User Interface
+   - Graphics
+     - Repositioned the UIs
+     - Bigger output
          
 1.1.6 (8.26.12
  - Added Scroll™ feature
