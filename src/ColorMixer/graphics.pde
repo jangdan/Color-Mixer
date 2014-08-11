@@ -28,9 +28,9 @@
   THE SOFTWARE.
   
   Color Mixer is open source!
-  http://github.com/leocarbon/cm
-  Use it, mod it, share it.
-  Just leave the white text on the bottom right with the Creative Commons image.
+  http://github.com/leocarbon/Color-Mixer
+  Use it, mod it, share it (as open source).
+  Just don't change the license.
   
   -----------------------------------------------------------------------------
   graphics.pde
@@ -47,58 +47,59 @@ Textlabel hex8Text;
 Textlabel aboutText;
 Textlabel aboutTitle;
 
-PFont courierText = createFont("Monaco",24);
-PFont georgiaText = createFont("Georgia",18);
-PFont georgiaTitle = createFont("Georgia",48);
+PFont Monaco14 = createFont("Monaco",14,false);
+PFont Monaco24 = createFont("Monaco",24,false);
+PFont Monaco48 = createFont("Monaco",48,false);
 
 public void textinit(){
   //Textlabels
    
    colorTextr = cp5.addTextlabel("colorTextr")
                    .setPosition(200,200)
-                   .setFont(courierText)
-                   .setText("Red\n" + r) //Where to change initial Textlabel values - will be fixed
+                   .setFont(Monaco24)
+                   .setText("Red\n" + r)
                    ;
    colorTextg = cp5.addTextlabel("colorTextg")
                    .setPosition(300,200)
-                   .setFont(courierText)
-                   .setText("Green\n" + g) //Where to change initial Textlabel values - will be fixed
+                   .setFont(Monaco24)
+                   .setText("Green\n" + g)
                    ;
    colorTextb = cp5.addTextlabel("colorTextb")
                    .setPosition(400,200)
-                   .setFont(courierText)
-                   .setText("Blue\n" + b) //Where to change initial Textlabel values - will be fixed
+                   .setFont(Monaco24)
+                   .setText("Blue\n" + b)
                    ;
    colorTexta = cp5.addTextlabel("colorTexta")
                    .setPosition(500,200)
-                   .setFont(courierText)
-                   .setText("Alpha\n" + a) //Where to change initial Textlabel values - will be fixed
+                   .setFont(Monaco24)
+                   .setText("Alpha\n" + a)
                    ;
                   
    hexText = cp5.addTextlabel("hexText")
                   .setPosition(200,300)
-                  .setFont(courierText)
-                  .setText("Hexadecimal [RGB]\n#808080") //Where to change initial Textlabel values - will be fixed
+                  .setFont(Monaco24)
+                  .setText("Hexadecimal [RGB]\n#808080")
                   ;
    hex8Text = cp5.addTextlabel("hex8Text")
                   .setPosition(200,400)
-                  .setFont(courierText)
-                  .setText("Hexadecimal [aRGB]\n0xFF808080") //Where to change initial Textlabel values - will be fixed
+                  .setFont(Monaco24)
+                  .setText("Hexadecimal [aRGB]\n0xFF808080")
                   ;
 }
 
 public void aboutTextinit(){
   aboutTitle = cp5.addTextlabel("title")
                    .setPosition(125,50)
-                   .setFont(georgiaTitle)
+                   .setFont(Monaco48)
                    .setTab("About")
-                   .setText("Color Mixer.")
+                   .setText("Color Mixer")
+                   .setColorValue(cp.getColorValue());
                    ;
   aboutText = cp5.addTextlabel("text")
-                   .setPosition(145,175)
+                   .setPosition(200,200)
                    .setWidth(550)
-                   .setFont(georgiaText)
+                   .setFont(Monaco14)
                    .setTab("About")
-                   .setText("\t Color is art. This application makes it easier to make colors. \nIt might have some bugs... It's not perfect . Just send me \nsome screenshots and information, and Leocarbon will try to \nfix it. \n\t Color Mixer is licensed under a \nCreative Commons Attribution-NonCommercial 3.0 Unported \n\t license which is good I guess\n\n\t v 3.0.0 \n\n\t github.com/leocarbon/cm \n\n\t Also, check out my website by clicking the orange button in the \nbottom left corner.")
+                   .setText("Color is too, an art.\nThis application makes it easier to make colors.\nColor Mixer is licensed under the MIT license.\nUse it, mod it, share it (as open source).\nJust don't change the license.\n\nv 3.1.0\nLast Updated 8.11.14\n\ngithub.com/leocarbon/Color-Mixer")
                    ;
 }

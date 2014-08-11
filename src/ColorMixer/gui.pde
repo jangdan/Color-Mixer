@@ -30,7 +30,10 @@
   Color Mixer is open source!
   http://github.com/leocarbon/cm
   Use it, mod it, share it.
-  Just leave the white text on the bottom right with the Creative Commons image.
+  Just leave the white text on the bottom right with the Creative Commons image.Color Mixer is open source!
+  http://github.com/leocarbon/Color-Mixer
+  Use it, mod it, share it (as open source).
+  Just don't change the license.
   
   -----------------------------------------------------------------------------
   gui.pde
@@ -42,7 +45,7 @@ ControlP5 cp5;
 
 ColorPicker cp;
 
-Button blog;
+Button repo, license, osi;
 Button randomColor;
 Button invertColor;
 
@@ -58,7 +61,6 @@ Tab program;
 
 
 
-PFont monaco14 = createFont("monaco",14);
 
 public void guiinit(){
   
@@ -86,11 +88,6 @@ public void guiinit(){
           ;
           
   //Buttons
-  cp5.addButton("blog")
-            .setPosition(4,734)
-            .setImages(blogger,blogovr,blogclk)
-            .setTab("About")
-            ;
   cp5.addButton("randomColor")
      .setPosition(381,103)
      .setSize(66,21)
@@ -111,9 +108,22 @@ public void guiinit(){
      .setSize(32,21)
      .setLabel("Reset")
      ;   
+  cp5.addButton("repo")
+     .setPosition(301,400)
+     .setSize(32,32)
+     .setImages(github, github, github)
+     .setTab("About")
+     ;
   cp5.addButton("license")
-     .setPosition(125,125)
-     .setImages(license,license,license)
+     .setPosition(200,400)
+     .setSize(91,32)
+     .setImages(licensel,licensel,licensel)
+     .setTab("About")
+     ;
+  cp5.addButton("osi")
+     .setPosition(200,432)
+     .setSize(91,104)
+     .setImages(osil,osil,osil)
      .setTab("About")
      ;
      
@@ -126,7 +136,7 @@ public void guiinit(){
      .setColorForeground(100)
      .setLabelVisible(false) 
      .setSize(30,15)
-     .setFont(monaco14)
+     .setFont(Monaco14)
      .setLabel("Red")
      .setColorLabel(color(255,0,0))
      ;
@@ -138,7 +148,7 @@ public void guiinit(){
      .setColorForeground(100)
      .setLabelVisible(false) 
      .setSize(30,15)
-     .setFont(monaco14)
+     .setFont(Monaco14)
      .setLabel("Green")
      .setColorLabel(color(0,255,0))
      ;
@@ -150,7 +160,7 @@ public void guiinit(){
      .setColorForeground(100)
      .setLabelVisible(false) 
      .setSize(30,15)
-     .setFont(monaco14)
+     .setFont(Monaco14)
      .setLabel("Blue")
      .setColorLabel(color(0,0,255))
      ;
@@ -161,7 +171,7 @@ public void guiinit(){
      .setColorActive(255)
      .setColorForeground(100)
      .setSize(30,15)
-     .setFont(monaco14)
+     .setFont(Monaco14)
      .setLabel("Alpha")
      .setColorLabel(~color(bg))
      ; 
@@ -174,28 +184,30 @@ public void guiinit(){
                  .setColorActive(255)
                  .setColorForeground(100)
                  .setLabelVisible(false)
-                 .setFont(monaco14)
-                 .setLabel("Hexdecimal")
+                 .setFont(Monaco14)
+                 .setLabel("Hexdecimal\n(Web)")
+                 .setWidth(8*8+1)
                  ; 
    hexcolora = cp5.addTextfield("hexcolora")
-                 .setPosition(579,66)
+                 .setPosition(514+8*8+1+3,66)
                  .setSize(88,15)
                  .setAutoClear(false)
                  .setColorBackground(128)
                  .setColorActive(255)
                  .setColorForeground(100)
                  .setLabelVisible(false)
-                 .setFont(monaco14)
-                 .setLabel("Hexdecimal with alpha  (android)")
+                 .setFont(Monaco14)
+                 .setLabel("Hexdecimal with alpha\n(Android)")
+                 .setWidth(8*11+1)
                  ; 
 }
 
-void blog(){
-  link("http://leocarbonate.com");
-}
-
-void license(){
-  link("http://creativecommons.org");
+void repo(){
+  link("http://github.com/leocarbon/Color-Mixer");
+} void license(){
+  link("https://creativecommons.org/licenses/by-sa/4.0/");
+} void osi(){
+  link("http://opensource.org/licenses/MIT");
 }
 
 

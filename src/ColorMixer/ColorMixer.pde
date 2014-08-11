@@ -28,9 +28,9 @@
   THE SOFTWARE.
   
   Color Mixer is open source!
-  http://github.com/leocarbon/cm
-  Use it, mod it, share it.
-  Just leave the white text on the bottom right with the Creative Commons image.
+  http://github.com/leocarbon/Color-Mixer
+  Use it, mod it, share it (as open source).
+  Just don't change the license.
   
   -----------------------------------------------------------------------------
   ColorMixer.pde
@@ -46,31 +46,25 @@ int r = 128;
 int g = 128;
 int b = 128;
 int a = 255;
-int[] buffer = new int[1024];
 int bg = 209;
 
 color currentColor;
 
-boolean[] keys = new boolean[1024];
+boolean[] keys = new boolean[158];
 
-PImage blogger;
-PImage blogovr;
-PImage blogclk;
-PImage license;
+PImage github, licensel, osil;
 
 void setup(){
   size(800,800);
   noStroke();
   
   frame.setTitle("Color Mixer");
-  PImage icon = loadImage("icons/sketch.jpg");
-  frame.setIconImage((Image)icon.getNative());
   
-  blogger = loadImage("images/blogger.png");
-  blogovr = loadImage("images/blogovr.png");
-  blogclk = loadImage("images/blogclk.png");
-  license = loadImage("images/license.png");
-  
+  github = loadImage("images/GitHub-Mark-32px.png");
+  licensel = loadImage("images/license/by-sa.png");
+  licensel.resize(91,32);
+  osil = loadImage("images/license/osi_greyscale_logo.png");
+  osil.resize(91,104);
   guiinit();
   cpinit();
   textinit();
@@ -83,4 +77,3 @@ void draw(){
   fill(cp.getColorValue());
   rect(125,125,550,550,0,7,7,7); //Rectangle
 }
-

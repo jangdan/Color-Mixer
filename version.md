@@ -47,10 +47,14 @@ version.md
 
 ###Past versions, like a history book.
   
-
-  Last Updated **3.2.14** @ **3.0.1 v 2.0.4**
+  v **3.1.0**
   
-  Build #**0014**
+  Last Updated **8.11.14**
+
+######3.1.0 (8.11.14)
+* Copy and paste hex colors! (With Control|Command + C|V)
+* Now compiles(runs) in Processing 2.2.1
+* Slight changes to the About tab.
 
 ######3.0.1 (3.2.14)
 * Updated links, licenses and removed unused code.
