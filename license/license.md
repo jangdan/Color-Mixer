@@ -1,18 +1,17 @@
 #Color Mixer
 
-####by Leocarbon
+####by Daniel Jang
 
+<https://electricmango.github.io>
 
-<https://leocarbon.github.io>
-
-<realleocarbon@gmail.com>
+<minhyukjang@gmail.com>
 
 ---
 Color Mixer is **license**d under
 
 The MIT License (MIT)
 
-Copyright (c) 2012 ~ 2014 Leocarbon
+Copyright (c) 2012 ~ 2014 Daniel Jang
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -35,7 +34,7 @@ THE SOFTWARE.
 ---
 Color Mixer is open source!
 
-<http://github.com/leocarbon/Color-Mixer>
+<http://github.com/electricmango/Color-Mixer>
 
 Use it, mod it, share it (**as open source**).
 
