@@ -1,41 +1,9 @@
-/*Color Mixer
-       by Leocarbon
-  https://leocarbon.github.io
-      realleocarbon@gmail.com
+/* Color Mixer
+       by electricmango
+  https://electricmango.github.io
 
-  Color Mixer is licensed under
-
-  The MIT License (MIT)
-
-  Copyright (c) 2012 ~ 2014 Leocarbon
-
-  Permission is hereby granted, free of charge, to any person obtaining a copy
-  of this software and associated documentation files (the "Software"), to deal
-  in the Software without restriction, including without limitation the rights
-  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-  copies of the Software, and to permit persons to whom the Software is
-  furnished to do so, subject to the following conditions:
-
-  The above copyright notice and this permission notice shall be included in
-  all copies or substantial portions of the Software.
-
-  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-  THE SOFTWARE.
-  
-  Color Mixer is open source!
-  http://github.com/leocarbon/Color-Mixer
-  Use it, mod it, share it (as open source).
-  Just don't change the license.
-  
-  -----------------------------------------------------------------------------
   graphics.pde
-  
-  Text display and more...
+    Text display and more...
 */
 
 Textlabel colorTextr;
@@ -93,13 +61,13 @@ public void aboutTextinit(){
                    .setFont(Monaco48)
                    .setTab("About")
                    .setText("Color Mixer")
-                   .setColorValue(cp.getColorValue());
+                   .setColorValue(cp.getColorValue())
                    ;
   aboutText = cp5.addTextlabel("text")
                    .setPosition(200,200)
                    .setWidth(550)
                    .setFont(Monaco14)
                    .setTab("About")
-                   .setText("Color is too, an art.\nThis application makes it easier to make colors.\nColor Mixer is licensed under the MIT license.\nUse it, mod it, share it (as open source).\nJust don't change the license.\n\nv 3.1.0\nLast Updated 8.11.14\n\ngithub.com/leocarbon/Color-Mixer")
+                   .setText("Color is too, an art.\nThis application makes it easier to make colors.\nColor Mixer is licensed under the GNU General\nPublic License.\n\nUse it, mod it, share it (as open source).\nJust don't change the license.\n\nv 3.1.1\nLast Updated 1.27.15\n\ngithub.com/electricmango/Color-Mixer")
                    ;
 }
