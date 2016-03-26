@@ -1,10 +1,13 @@
 #version.md
 
 > Past versions, like a history book.
-  
+
+
 version **3.1.1**
   
-Last Updated **1.27.14**
+last updated **1.27.14**
+
+
 
 ######3.1.1 (1.27.14)
 * license updates and cleanup (who wants a messy license that fills up your view?)
